@@ -1,5 +1,5 @@
 FROM almalinux:9
-LABEL course = "docker" \
-      tariner= "sivakumar" \
-      author ="sankuramana"\
-      match = "india"
+LABEL course="docker" \
+      trainer="sivakumar" \
+      author="sankuramana" \
+      match="india"
