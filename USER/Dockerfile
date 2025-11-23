@@ -13,6 +13,8 @@ RUN useradd ramana
 
 # Switch to non-root user for safer container execution
 USER ramana
+# conatiner will execute as user ramana
+# not as root by default after this
 
 # Run a long sleep to keep the container alive (spelling fixed)
 CMD [ "sleep", "1000" ]
